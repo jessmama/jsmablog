@@ -26,19 +26,9 @@ jobs:
            hugo-version: 'latest'
            extended: true
            
-       - name: Build Page
-         run: |
-              npm install
-              npm run deploy
-              
-       - name: Validate HTML
-         uses: Cyb3r-Jak3/html5validator-action@master
-         with:
-           root: ./exampleSite/public
-           log_level: INFO
-           css: true
-           blacklist: mermaid.min.css   
-           
+       - name: Setup Theme Dependency
+         run: npm run reinstall --prefix themes/FeelIt
+        
        # 我發現 Hugo 會產生一堆 min.[hash].* 檔案，所以這裡我先把舊檔案清除
        - name: cleanup files of public site
          working-directory: ./public
