@@ -9,25 +9,43 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    name: publish content to public site
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true  # 找尋Hugo主題(true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+       # 使用當前的 repo
+       - name: checkout private repo
+         uses: actions/checkout@v2
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.87.0' # hugo 版本
-          extended: true  # 如果是使用extended版本的務必取消註解。
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
+       # 因為目前的 repo 有使用到 submodule，所以 submodule 也要一併同步
+       # 不然原本的 repo 是沒有 submodule 的內容
+       - name: checkout submodules
+         shell: bash
+         run: |
+          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+          git submodule sync --recursive
+          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+       
+       # 使用別人做好的 Hugo Actions
+       - name: setup hugo
+         uses: peaceiris/actions-hugo@v2
+         with:
+           hugo-version: latest
+           extended: true
+           
+       # 我發現 Hugo 會產生一堆 min.[hash].* 檔案，所以這裡我先把舊檔案清除
+       - name: cleanup files of public site
+         working-directory: ./public
+         shell: bash
+         run: find . -type f -name '*.min.*' -exec rm -f {} \;
+         
+      # 開始用 Hugo 產生檔案囉
+       - name: build content to public site
+         working-directory: ./
+         run: hugo --minify --gc      
+     
+       - name: Deploy
+         uses: peaceiris/actions-gh-pages@v3
+         with:
           github_token: ${{ secrets.HUGO_DEPLOY_TOKEN }}
           PUBLISH_BRANCH: gh-pages  # 推送到 gh-pages 分支
           PUBLISH_DIR: ./public     # hugo 生成的目錄
