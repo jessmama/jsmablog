@@ -9,31 +9,35 @@ on:
 
 jobs:
   deploy:
-    name: publish content to public site
     runs-on: ubuntu-latest
     steps:
        # 使用當前的 repo
        - name: checkout private repo
          uses: actions/checkout@v2
          with:
+            ref: main
+            token: ${{ secrets.HUGO_DEPLOY_TOKEN  }}
             submodules: true  # 找尋Hugo主題(true OR recursive)
             fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-       # 因為目前的 repo 有使用到 submodule，所以 submodule 也要一併同步
-       # 不然原本的 repo 是沒有 submodule 的內容
-       - name: checkout submodules
-         shell: bash
-         run: |
-          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-          git submodule sync --recursive
-          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-       
-       # 使用別人做好的 Hugo Actions
-       - name: setup hugo
+       - name: Setup Hugo
          uses: peaceiris/actions-hugo@v2
          with:
-           hugo-version: latest
+           hugo-version: 'latest'
            extended: true
+           
+       - name: Build Page
+         run: |
+              npm install
+              npm run deploy
+              
+       - name: Validate HTML
+         uses: Cyb3r-Jak3/html5validator-action@master
+         with:
+           root: ./exampleSite/public
+           log_level: INFO
+           css: true
+           blacklist: mermaid.min.css   
            
        # 我發現 Hugo 會產生一堆 min.[hash].* 檔案，所以這裡我先把舊檔案清除
        - name: cleanup files of public site
