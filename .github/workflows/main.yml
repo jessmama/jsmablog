@@ -15,6 +15,9 @@ jobs:
        # 使用當前的 repo
        - name: checkout private repo
          uses: actions/checkout@v2
+         with:
+            submodules: true  # 找尋Hugo主題(true OR recursive)
+            fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
        # 因為目前的 repo 有使用到 submodule，所以 submodule 也要一併同步
        # 不然原本的 repo 是沒有 submodule 的內容
