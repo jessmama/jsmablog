@@ -6,11 +6,11 @@ draft: false
 author: "Jess"
 # authorLink: "https://feelit.khusika.com"
 description: "scratchjr初學者教學-如何在Scratch開啟新專案｜scratch中文教程"
-resources:
-- name: "featured-image"
-  src: "featured-image-preview.jpg"
-- name: "featured-image-preview"
-  src: "featured-image-preview.jpg"
+# resources:
+# - name: "featured-image"
+#   src: "featured-image-preview.jpg"
+# - name: "featured-image-preview"
+#   src: "featured-image-preview.jpg"
 
 tags: ["ScratchJr", "兒童程式教育"]
 categories: ["ScratchJr"]
