@@ -28,12 +28,12 @@ jobs:
            
        - name: Setup Theme Dependency
          run: npm run reinstall --prefix themes/FeelIt
-         
-       - name: Setup public
-         run: git worktree add -B gh-pages public origin/gh-pages
 
        - name: Clean public
          run: rm -rf public/*
+         
+       - name: Setup public
+         run: git worktree add -B gh-pages public origin/gh-pages
          
       # 開始用 Hugo 產生檔案囉
        - name: build content to public site
