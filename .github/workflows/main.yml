@@ -29,12 +29,6 @@ jobs:
        - name: Setup Theme Dependency
          run: npm run reinstall --prefix themes/FeelIt
          
-       - name: Debug theme documentation
-         run: npm run start-production --prefix themes/FeelIt
-         
-       - name: Build theme documentation
-         run: npm run build --prefix themes/FeelIt
-         
        - name: Setup public
          run: git worktree add -B master public origin/master
 
