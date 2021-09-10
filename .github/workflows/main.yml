@@ -30,7 +30,7 @@ jobs:
          run: npm run reinstall --prefix themes/FeelIt
          
        - name: Setup public
-         run: git worktree add -B master public origin/master
+         run: git worktree add -B gh-pages public origin/gh-pages
 
        - name: Clean public
          run: rm -rf public/*
