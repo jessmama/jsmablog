@@ -1,0 +1,434 @@
+baseURL = 'https://jessmama.github.io/jsma-blog/'
+
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+
+# language code
+languageCode = 'en-us'
+title = '捷思媽 - 以程式設計師媽媽的身份，分享兒童程式教育的學習資源'
+
+# Change the default theme to be use when building the site with Hugo
+theme = "FeelIt"
+
+[params]
+# site description
+description = "捷思媽 - 以程式設計師媽媽的身份，分享兒童程式教育的學習資源"
+
+# site keywords
+keywords = ["scratch", "兒童程式","程式教育","scratch3.0","scratch遊戲","scratch範例","scratch教學範例","scratch遊戲設計","scratch教學","scratch程式","scratch程式設計","scratch課程","scratch兒童程式設計","程式語言兒童"]
+
+# FeelIt theme version
+version = "1.0.X"
+
+# site default theme ("light", "dark", "auto")
+defaultTheme = "light"
+
+# public git repo url only then enableGitInfo is true
+gitRepo = ""
+
+
+# which hash function used for SRI, when empty, no SRI is used
+# ("sha256", "sha384", "sha512", "md5")
+fingerprint = ""
+
+# date format
+dateFormat = "2006-01-02"
+
+# website images for Open Graph and Twitter Cards
+images = ["/logo.png"]
+  
+# whether to enable CSS and JS source mapping
+SourceMap = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+    
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/khusika/FeelIt/issues/158)
+    noClasses = false
+
+
+[params.pwa]
+    # whether to enable PWA support
+    enable = true
+    # service-worker version
+    version = "1.0.1"
+
+ # App icon config
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = '捷思媽 - 以程式設計師媽媽的身份，分享兒童程式教育的學習資源'
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    # Android browser theme color
+    themeColor = "#ffffff"
+    # Safari mask icon color
+    iconColor = "#5bbad5"
+    # Windows v8-10 tile color
+    tileColor = "#da532c"
+
+# Search config
+  [params.search]
+    enable = true
+
+    # type of search engine ("lunr", "algolia")
+    type = "lunr"
+
+    # max index length of the chunked content
+    contentLength = 4000
+
+    # placeholder of the search bar
+    placeholder = ""
+
+    # max number of results length
+    maxResultLength = 10
+
+    #  snippet length of the result
+    snippetLength = 30
+
+    # HTML tag name of the highlight part in results
+    highlightTag = "em"
+
+    # whether to use the absolute URL based on the baseURL in search index
+    absoluteURL = false
+
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+
+  # Header config
+  [params.header]
+
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+
+    #  Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+
+      # title name
+      name = "Jess媽｜捷思碼"
+
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+
+      # whether to use typeit animation for title name
+      typeit = false
+
+      #  whether to show RSS icon
+      rss = true
+
+ 
+  # Footer config
+  [params.footer]
+    enable = true
+
+    # Custom content (HTML format is supported)
+    custom = ''
+
+    # whether to show Hugo and theme info
+    hugo = false
+
+    #  whether to show copyright info
+    copyright = true
+
+    #  whether to show the author
+    author = false
+
+    # Site creation time
+    since = 2021
+
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+
+    # license info (HTML format is supported)
+    # license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  
+  # ection (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+
+    # date format (month and day)
+    dateFormat = "01-02"
+
+    # amount of RSS pages
+    rss = 10
+
+  # List (category or tag) page config
+  [params.list]
+
+    # special amount of posts in each list page
+    paginate = 20
+
+    # date format (month and day)
+    dateFormat = "01-02"
+
+    # amount of RSS pages
+    rss = 10
+
+[params.about]
+    # whether to enable profile on about page
+    # depends on .Site.Params.home.profile.enable
+    enable = true
+
+    # whether to enable param layout
+    param = true
+
+    # title for param layout
+    paramTitle = "Personal Information"
+
+    # general description of your site
+    # can be write with markdown style
+    description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.com). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+    
+    # description of your status
+    [[params.about.status]]
+      faIcon = "fas fa-building"
+      title = "Company"
+      desc = "FeelIt"
+
+    [[params.about.status]]
+      faIcon = "fas fa-briefcase fa-fw"
+      title = "Occupation"
+      desc = "Freelancer"
+
+    [[params.about.status]]
+      title = "Location"
+      faIcon = "fas fa-map-marker-alt"
+      desc = "Earth"
+
+    # description of your parameter
+    [[params.about.parameter]]
+      language = "UI/UX"
+      level = "80"
+
+    [[params.about.parameter]]
+      language = "HTML"
+      level = "70"
+
+    [[params.about.parameter]]
+      language = "Go"
+      level = "60"
+
+  # Home page config
+  [params.home]
+    # amount of RSS pages
+    rss = 10
+
+    # Home page profile
+    [params.home.profile]
+      enable = true
+
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+
+      avatarURL = "/images/avatar.webp"
+
+      # title shown in home page (HTML format is supported)
+      title = ""
+
+      # subtitle shown in home page
+      subtitle = "Hi，我是Jess媽，是程式設計師，也是媽媽，與你分享兒童程式教育的專業學習資源"
+
+      # whether to use typeit animation for subtitle
+      typeit = true
+
+      # whether to show social links
+      social = true
+
+      # disclaimer (HTML format is supported)
+      disclaimer = ""
+
+    # Home page posts
+    [params.home.posts]
+      enable = true
+
+      # special amount of posts in each home posts page
+      paginate = 6
+
+      # display image-preview
+      imagePreview = true
+
+      # replaced with hiddenFromHomePage in params.page
+
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+
+ # oEmbed config
+  [params.oembed]
+    # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
+    privacy = false
+
+    [params.oembed.facebook]
+      # Facebook Aplication Identity and Client Token (<APPID>|<CLIENTTOKEN>)
+      accessToken = ""
+
+    [params.oembed.twitter]
+      enableDNT = false
+
+  # Social config about the author
+  [params.social]
+     # GitHub = "xxxx"
+     # Linkedin = ""
+     # Twitter = "xxxx"
+     # Instagram = "xxxx"
+     Facebook = "xxxx"
+     # Telegram = "xxxx"
+     # Medium = ""
+     # Gitlab = ""
+     # Youtubelegacy = ""
+     # Youtubecustom = ""
+     Youtubechannel = ""
+     # Tumblr = ""
+     # Quora = ""
+     # Keybase = ""
+     # Pinterest = ""
+     # Reddit = ""
+     # Codepen = ""
+     # FreeCodeCamp = ""
+     # Bitbucket = ""
+     # Stackoverflow = ""
+     # Weibo = ""
+    Email = "xxxx@xxxx.com"
+    xda = "" 
+    RSS = true 
+
+  # 文章页面配置
+  [params.page]
+    # 是否在主页隐藏一篇文章
+    hiddenFromHomePage = false
+
+    # 是否在搜索结果中隐藏一篇文章
+    hiddenFromSearch = false
+
+    # 是否使用 twemoji
+    twemoji = false
+
+    # 是否使用 lightgallery
+    lightgallery = false
+
+    # 是否使用 ruby 扩展语法
+    ruby = true
+
+    # 是否使用 fraction 扩展语法
+    fraction = true
+
+    # 是否使用 fontawesome 扩展语法
+    fontawesome = true
+
+    #  是否使用 fontawesome 作为CDN源
+    cdnfontawesome = true
+
+    # 是否在文章页面显示原始 Markdown 文档链接
+    linkToMarkdown = true
+
+    # 是否显示链接以改善文章
+    improveArticle = ""
+
+    # 是否在 RSS 中显示全文内容
+    rssFullText = false
+
+    #  目录配置
+    [params.page.toc]
+      # 是否使用目录
+      enable = true
+
+      # 是否保持使用文章前面的静态目录
+      keepStatic = true
+
+      # 是否使侧边目录自动折叠展开
+      auto = true
+
+    # 代码配置
+    [params.page.code]
+      # 是否显示代码块的复制按钮
+      copy = true
+
+      # 默认展开显示的代码行数
+      maxShownLines = 10
+
+    # {{< link "https://katex.org/" KaTeX >}} 数学公式
+    [params.page.math]
+      enable = true
+
+      # 默认块定界符是 $$ ... $$ 和 \\[ ... \\]
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+
+      # 默认行内定界符是 $ ... $ 和 \\( ... \\)
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+
+      # KaTeX 插件 copy_tex
+      copyTex = true
+
+      # KaTeX 插件 mhchem
+      mhchem = true
+
+    # {{< link "https://docs.mapbox.com/mapbox-gl-js" "Mapbox GL JS" >}} 配置
+    [params.page.mapbox]
+      # Mapbox GL JS 的 access token
+      accessToken = ""
+
+      # 浅色主题的地图样式
+      lightStyle = "mapbox://styles/mapbox/light-v9"
+
+      # 深色主题的地图样式
+      darkStyle = "mapbox://styles/mapbox/dark-v9"
+
+      # 是否添加 {{< link "https://docs.mapbox.com/mapbox-gl-js/api#navigationcontrol" NavigationControl >}}
+      navigation = true
+
+      # 是否添加 {{< link "https://docs.mapbox.com/mapbox-gl-js/api#geolocatecontrol" GeolocateControl >}}
+      geolocate = true
+
+      # 是否添加 {{< link "https://docs.mapbox.com/mapbox-gl-js/api#scalecontrol" ScaleControl >}}
+      scale = true
+
+      # 是否添加 {{< link "https://docs.mapbox.com/mapbox-gl-js/api#fullscreencontrol" FullscreenControl >}}
+      fullscreen = true
