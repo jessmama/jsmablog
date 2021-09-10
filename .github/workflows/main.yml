@@ -28,12 +28,18 @@ jobs:
            
        - name: Setup Theme Dependency
          run: npm run reinstall --prefix themes/FeelIt
-        
-       # 我發現 Hugo 會產生一堆 min.[hash].* 檔案，所以這裡我先把舊檔案清除
-       - name: cleanup files of public site
-         working-directory: ./public
-         shell: bash
-         run: find . -type f -name '*.min.*' -exec rm -f {} \;
+         
+       - name: Debug theme documentation
+         run: npm run start-production  
+         
+       - name: Build theme documentation
+         run: npm run build 
+         
+       - name: Setup public
+         run: git worktree add -B master public origin/master
+
+       - name: Clean public
+         run: rm -rf public/*
          
       # 開始用 Hugo 產生檔案囉
        - name: build content to public site
