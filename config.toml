@@ -273,7 +273,7 @@ SourceMap = true
       title = ""
 
       # subtitle shown in home page
-      subtitle = "Hi，我是Jess媽，是程式設計師，也是媽媽，與你分享兒童程式教育的專業學習資源"
+      subtitle = "我是Jess媽，是程式設計師，也是媽媽，與你分享兒童程式教育的學習資源"
 
       # whether to use typeit animation for subtitle
       typeit = true
