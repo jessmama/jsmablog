@@ -9,36 +9,54 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      
     steps:
-       # 使用當前的 repo
        - name: checkout private repo
          uses: actions/checkout@v2
          with:
             ref: main
             token: ${{ secrets.HUGO_DEPLOY_TOKEN  }}
-            submodules: true  # 找尋Hugo主題(true OR recursive)
+            submodules: recursive  # 找尋Hugo主題(true OR recursive)
             fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
+            
        - name: Setup Hugo
          uses: peaceiris/actions-hugo@v2
          with:
-           hugo-version: 'latest'
-           extended: true
-           
+            hugo-version: '0.85.0'
+            extended: true
+
+       - name: Setup Node
+         uses: actions/setup-node@v2
+         with:
+            node-version: '14'
+
+       - name: Cache dependencies
+         uses: actions/cache@v1
+         with:
+            path: ~/.npm
+            key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+            restore-keys: |
+              ${{ runner.os }}-node-
+
        - name: Setup Theme Dependency
          run: npm run reinstall --prefix themes/FeelIt
-
+           
+       - run: npm run start-production
+       
+       - run: npm run build
+           
        - name: Clean public
          run: rm -rf public/*
          
        - name: Setup public
          run: git worktree add -B gh-pages public origin/gh-pages
-         
-      # 開始用 Hugo 產生檔案囉
+      
        - name: build content to public site
          working-directory: ./
-         run: hugo --minify --gc      
+         run: hugo --minify   
      
        - name: Deploy
          uses: peaceiris/actions-gh-pages@v3
