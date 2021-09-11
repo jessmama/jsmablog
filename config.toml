@@ -1,4 +1,4 @@
-baseURL = 'https://jessmama.github.io/jsma-blog/'
+baseURL = 'https://jessmama.github.io/jsmablog/'
 
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
