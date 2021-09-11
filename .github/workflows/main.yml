@@ -41,12 +41,7 @@ jobs:
             restore-keys: |
               ${{ runner.os }}-node-
 
-       - name: Setup Theme Dependency
-         run: npm run reinstall --prefix themes/FeelIt
-           
-       - run: npm run start-production --prefix themes/FeelIt
-       
-       - run: npm run build --prefix themes/FeelIt
+       - run: npm ci
            
        - name: Clean public
          run: rm -rf public/*
