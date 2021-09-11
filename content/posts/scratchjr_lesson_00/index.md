@@ -2,7 +2,7 @@
 weight: 4
 title: "scratchjr初學者教學-如何在Scratch開啟新專案｜scratch中文教程"
 date: 2021-09-10T20:22:52+08:00
-draft: false
+draft: true
 author: "Jess"
 # authorLink: "https://feelit.khusika.com"
 description: "scratchjr初學者教學-如何在Scratch開啟新專案｜scratch中文教程"
