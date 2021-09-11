@@ -1,11 +1,11 @@
 ---
 weight: 3
-title: "ScratchJr在各裝置的安裝步驟"
+title: "你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你"
 date: 2021-09-09T08:39:25+08:00
 draft: false
 author: "Jess"
 # authorLink: "https://feelit.khusika.com"
-description: "ScratchJr在各裝置的安裝步驟"
+description: "你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你"
 resources:
 - name: "featured-image"
   src: "featured-image-preview.webp"
