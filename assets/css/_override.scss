@@ -1,3 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
-$code-font-family:  Noto Sans TC,sans-serif;
-$line-height: 24px;
+$code-font-family:  Noto Sans TC,sans-serif,Source Code Pro, Menlo, Consolas, Monaco, monospace, $global-font-family !default;
+
+$global-line-height: 1.7rem;
+
+// Color of the blockquote
+$blockquote-color: #f0f5f5 !default;
