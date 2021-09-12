@@ -49,7 +49,7 @@ ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護�
   
   * 若你是Chromebook OS的筆電：[到 Chrome web store 安裝](https://chrome.google.com/webstore/detail/scratchjr/oipimoeophamdcmjcfameoojlbhbgjda)
     
-  * 若你不是Chromebook OS的電腦：需安裝BlueStack後（Android模擬器），再安裝ScratchJr
+  * 若你不是Chromebook OS的電腦：需安裝Bluestacks後（Android模擬器），再安裝ScratchJr
     
     1. 請連至 [Bluestacks 台灣官網](https://www.bluestacks.com/tw/index.html)
       * Bluestacks：是一種 Android 模擬器，安裝在你的電腦或是筆電後，電腦就變成一台Android手機，可以在電腦上下載並使用APP。
@@ -59,17 +59,27 @@ ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護�
            
       * [Mac安裝參考這裡](https://support.bluestacks.com/hc/zh-tw/articles/360000736632-%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E7%B3%BB%E7%B5%B1%E4%B8%8A%E5%AE%89%E8%A3%9D%E4%B8%A6%E5%95%9F%E5%8B%95BlueStacks-)
   
-      ![安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr](bluestack.jpg "安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr")
+      ![安裝Bluestacks後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr](bluestack.jpg "安裝Bluestacks後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr")
   
 #### 問題3： ScratchJr的主要功能是什麼呢？一開始可以怎麼帶孩子玩呢？
 
-安裝完成後，請打開ScratchJr，先
+安裝完成後，請打開ScratchJr
 
-一開始讓孩子剛開始嘗試時，建議可以先讓他們自由探索，選擇一個自己的角色，替換背景，或是用軟體中類似小畫家的功能，畫出自己想要的角色。
+* 安裝後第一次開啟才會出現，請按Allow
+  
+* 第一次開啟才會出現，詢問你預計在哪裡使用，請選擇任一選項
 
-可自己繪製或是選擇系統內建之角色及背景，角色可以用程式積木拉取的方式設定動作或聲音，也可以善用平板電腦的麥克風錄製聲音，或是用相機拍攝照片的方式，為創作的角色做客製化設計。
+* 打開後，看到的東西都點點看
 
+* 點擊小房子後，進入 My Projects 這裡是你創造自己的故事/遊戲/動畫...的地方，請按＋開始一個新專案
 
+* 操作介面
+
+* 一開始讓孩子剛開始嘗試時，建議可以先讓他們自由探索，選擇一個自己的角色，替換背景，或是用軟體中類似小畫家的功能，畫出自己想要的角色。
+
+* 可自己繪製或是選擇系統內建之角色及背景，角色可以用程式積木拉取的方式設定動作或聲音，也可以善用平板電腦的麥克風錄製聲音，或是用相機拍攝照片的方式，為創作的角色做客製化設計。
+
+* 若點擊 ？號，可以與孩子一起探索更多功能
 
 
 #### 問題4： ScratchJr不是可以拿來寫程式嗎？可是我怎麼只看到孩子拿來做動畫？我可以如何引導孩子學習程式呢？
@@ -80,13 +90,10 @@ ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護�
 
 之後，還可以鼓勵孩子用ScratchJr說個小故事，或是做個小遊戲，網路上或是書籍都可以很容易找到資源，可以帶著孩子學習。在製作的過程中，可搭配學習程式的基礎概念，例如：迴圈（loop）.除錯（debug）.事件（Events)。
 
-[延伸閱讀：How do you create a project on Scratch Jr?](https://assemble.io)
-
 [延伸閱讀：ScratchJr project ideas for kids](https://assemble.io)
 
 #### 問題5:  學會ScratchJr後可以怎麼延伸呢？
 
-可延伸學習Scratch，ScratchJr 算是 Scratch 積木較少的簡化版本，所以孩子在學習過ScratchJr後，要延伸學習Scratch，因介面是一致的，會較容易快速上手。再加上Scratch擴充性非常的高，學習Scratch可再與其他程式語言結合或是連接外部硬體做出更多有趣的應用。
+可延伸學習Scratch，ScratchJr 算是 Scratch 積木較少的簡化版本，所以孩子在學習過ScratchJr後，要延伸學習Scratch，因介面是一致的，會較容易快速上手。
 
-![孩子可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲](/images/lighthouse.jpg "孩子可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲")
-
+再加上Scratch擴充性非常的高，學習Scratch可再與其他程式語言結合或是連接外部硬體做出更多有趣的應用。
