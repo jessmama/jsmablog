@@ -15,10 +15,10 @@ resources:
 tags: ["ScratchJr", "兒童程式教育"]
 categories: ["ScratchJr"]
 
-#lightgallery: false
+lightgallery: false
 
-#toc:
-#  auto: false
+toc:
+  auto: false
 ---
 > 你對寫程式的印象，還停留在用鍵盤一個一個打出英文字的黑底白字的介面嗎？對兒童來說，這樣的介面不僅學習困難，而且會大大減少他們的學習意願，所以教孩子使用積木拖拉方式寫程式（Drag-and-drop programming）已經是一種趨勢。撰寫程式的難度降低後，即使是5歲的兒童也可以從ScratchJr開始學習程式設計。
 
@@ -34,7 +34,6 @@ ScratchJr是一個免費APP,是由MIT(麻省理工學院)開發及維護的一�
 
 ![5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲](use_scratch.jpg "5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲")
 
-{{< figure src="use_scratch.jpg" alt="5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲" title="5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲" >}}
 
 #### 問題2： ScratchJr可安裝在哪裡呢？
 
@@ -46,7 +45,9 @@ ScratchJr是一個免費APP,是由MIT(麻省理工學院)開發及維護的一�
 
 - 若要安裝於桌上電腦或是筆記型電腦，需安裝BlueStack後（Android模擬器），再安裝ScratchJr 
 
+
 [延伸閱讀：你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你](../how_to_install_scratchjr/)
+
 
 #### 問題3： ScratchJr可以在電腦（桌上型電腦/筆記型電腦）上使用ScratchJr嗎？
 
