@@ -1,11 +1,11 @@
 ---
 weight: 3
-title: "你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你"
+title: "你知道除了在Pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你"
 date: 2021-09-09T08:39:25+08:00
 draft: false
 author: "Jess"
 # authorLink: "https://feelit.khusika.com"
-description: "你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你"
+description: "你知道除了在Pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你"
 resources:
 - name: "featured-image"
   src: "featured-image-preview.webp"
@@ -20,26 +20,16 @@ lightgallery: true
 toc:
   auto: false
 ---
+ScratchJr會定位在平板電腦上使用的原因，一方面是因為5-8歲的孩子尚未學習如何使用滑鼠。
 
-### ScratchJr可安裝的硬體環境：
+另一方面，也因為5-8歲的孩子尚未學習認字，使用鍵盤打字對他們來說是一大挑戰。
 
-* iPad(需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone
+而手機螢幕對5-8歲的孩子來說，顯得太小不容易閱讀，也不容易用手指操作，所以平板電腦便成了ScratchJr所預設的使用客群5-8歲的孩子的最佳選擇。
 
-* Android手機或Android Pad上（請進入Google Play安裝）
+#### 可以在桌上型電腦/筆記型電腦上使用ScratchJr嗎？
+可以的喔。
 
-* 若要安裝於桌上電腦或是筆記型電腦，需安裝BlueStack後（Android模擬器），再安裝ScratchJr 
-
-### iPad安裝方式
-
-1. 請連至ScratchJr官網：https://www.scratchjr.org/
-
-2. 點選 App Store就可以安裝了
-
-### Android手機或Android Pad的安裝方式
-
-1. 請連至ScratchJr官網：https://www.scratchjr.org/
-
-2. 點選 Google Play就可以安裝了
+透過安裝Andriod模擬器的方式，安裝完成模擬器之後，你的電腦就變成了一台平板（或手機），可以安裝ScratchJr APP在上面，就可以讓孩子們在電腦上使用ScratchJr。
 
 ### 桌上電腦或是筆記型電腦安裝方式
 
