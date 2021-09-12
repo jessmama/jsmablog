@@ -63,7 +63,8 @@ ScratchJr會定位在平板電腦上使用的原因，一方面是因為5-8歲�
 而手機螢幕對5-8歲的孩子來說，顯得太小不容易閱讀，也不容易用手指操作，所以平板電腦便成了ScratchJr所預設的使用客群5-8歲的孩子的最佳選擇。
 
 但若真的想要在電腦上安裝ScratchJr其實也是可以的，可以透過安裝Andriod模擬器的方式，安裝完成模擬器之後，你的電腦就變成了一台平板（或手機），可以安裝ScratchJr APP在上面，就可以讓孩子們在電腦上使用ScratchJr。
-[安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr](bluestack.jpg "安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr")
+
+![安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr](bluestack.jpg "安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr")
 
 
 
