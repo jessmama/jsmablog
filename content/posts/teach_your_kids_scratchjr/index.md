@@ -41,7 +41,7 @@ ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護�
 
 可安裝於以下的硬體上：
 
-- IPad(需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone：請連至<a href="https://apps.apple.com/us/app/scratchjr/id895485086?ls=1" target="_blank">連到 App Store 安裝</a>
+- IPad(需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone：[連到 App Store 安裝](https://apps.apple.com/us/app/scratchjr/id895485086?ls=1){:target="_blank"}
 
 - Android手機或Android Pad上：<a href="https://play.google.com/store/apps/details?id=org.scratchjr.android" target="_blank">連到 Google Play 安裝</a>
   
