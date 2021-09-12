@@ -5,7 +5,7 @@
 問題1： ScratchJr是什麼？適合甚麼年齡的孩子呢？ ScratchJr是一個免費APP,是由MIT(麻省理工學院)開發及維護的一套軟體，提供給5-7歲第一次嘗試程式設計的孩子們，用拖拉（dragging and dropping）的方式將一個一個像是樂高積木的程式，有順序的組合起來後，就可以撰寫程式，讓畫面上的角色動起來，孩子可以在這個APP藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲，讓他們發揮創意之外，也可以學習程式的基礎概念。
 5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲
 " 5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲
-5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲 問題2： ScratchJr可安裝在哪裡呢？ 可安裝於以下的硬體上：
+問題2： ScratchJr可安裝在哪裡呢？ 可安裝於以下的硬體上：
 IPad(需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone
 Android手機或Android Pad上（請進入Google Play安裝）
 若要安裝於桌上電腦或是筆記型電腦，需安裝BlueStack後（Android模擬器），再安裝ScratchJr
@@ -20,7 +20,8 @@ ScratchJr會定位在平板電腦上使用的原因，一方面是因為5-8歲�
 接著再請孩子嘗試將積木組合起來，就像組樂高積木一樣，將積木黏在一起，再點選一次已經黏起來的積木，就可以看到螢幕上的角色，會依照積木的先後順序執行一連串的動作。
 之後，還可以鼓勵孩子用ScratchJr說個小故事，或是做個小遊戲，網路上或是書籍都可以很容易找到資源，可以帶著孩子學習。在製作的過程中，可搭配學習程式的基礎概念，例如：迴圈（loop）.除錯（debug）.事件（Events)。
 延伸閱讀：How do you create a project on Scratch Jr?
-延伸閱讀：ScratchJr project ideas for kids</description></item><item><title>scratch與scratchJr的差異是什麼？各適合什麼樣的年齡學習？</title><link>https://jessmama.github.io/jsmablog/posts/what_is_the_different_scratch_scratchjr/</link><pubDate>Mon, 06 Sep 2021 10:15:18 +0800</pubDate><guid>https://jessmama.github.io/jsmablog/posts/what_is_the_different_scratch_scratchjr/</guid><description>scratch與scratchJr的相同點 皆為提供給兒童設計程式所使用的免費軟體 皆為積木程式，使用點擊及拖拉(click and drag)方式撰寫程式 scratch與scratchJr的差異比較 差異 ScratchJr Scratch 適合學習年齡 5 ~ 7歲 8 ~ 16歲 所使用的裝置 平板 電腦 使用方式 下載即可使用 在網站上註冊後即可使用 有差異的積木功能 Sound effects Only one “pop” sound is available to use in ScratchJr. However kids can record any sounds they want. Though the recording time is limited to a minute.
+延伸閱讀：ScratchJr project ideas for kids
+問題5: 學會ScratchJr後可以怎麼延伸呢？ 可延伸學習Scratch，ScratchJr 算是 Scratch 積木較少的簡化版本，所以孩子在學習過ScratchJr後，要延伸學習Scratch，因介面是一致的，會較容易快速上手。再加上Scratch擴充性非常的高，學習Scratch可再與其他程式語言結合或是連接外部硬體做出更多有趣的應用。</description></item><item><title>scratch與scratchJr的差異是什麼？各適合什麼樣的年齡學習？</title><link>https://jessmama.github.io/jsmablog/posts/what_is_the_different_scratch_scratchjr/</link><pubDate>Mon, 06 Sep 2021 10:15:18 +0800</pubDate><guid>https://jessmama.github.io/jsmablog/posts/what_is_the_different_scratch_scratchjr/</guid><description>scratch與scratchJr的相同點 皆為提供給兒童設計程式所使用的免費軟體 皆為積木程式，使用點擊及拖拉(click and drag)方式撰寫程式 scratch與scratchJr的差異比較 差異 ScratchJr Scratch 適合學習年齡 5 ~ 7歲 8 ~ 16歲 所使用的裝置 平板 電腦 使用方式 下載即可使用 在網站上註冊後即可使用 有差異的積木功能 Sound effects Only one “pop” sound is available to use in ScratchJr. However kids can record any sounds they want. Though the recording time is limited to a minute.
 Broadcasts ScratchJr has a limited number of broadcast blocks: up to six on each page.</description></item><item><title>你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你</title><link>https://jessmama.github.io/jsmablog/posts/how_to_install_scratchjr/</link><pubDate>Thu, 09 Sep 2021 08:39:25 +0800</pubDate><guid>https://jessmama.github.io/jsmablog/posts/how_to_install_scratchjr/</guid><description>ScratchJr可安裝的硬體環境： iPad(需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone
 Android手機或Android Pad上（請進入Google Play安裝）
 若要安裝於桌上電腦或是筆記型電腦，需安裝BlueStack後（Android模擬器），再安裝ScratchJr
