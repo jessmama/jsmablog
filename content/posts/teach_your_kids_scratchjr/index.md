@@ -3,7 +3,7 @@ weight: 1
 title: "想要教孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
 date: 2021-09-05T20:22:52+08:00
 draft: false
-# author: "Jess"
+author: "Jess"
 # authorLink: "https://feelit.khusika.com"
 description: "想要教孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
 resources:
@@ -34,6 +34,8 @@ ScratchJr是一個免費APP,是由MIT(麻省理工學院)開發及維護的一�
 
 ![5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲](use_scratch.jpg "5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲")
 
+{{< figure src="use_scratch.jpg" alt="5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲" title="5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲" >}}
+
 #### 問題2： ScratchJr可安裝在哪裡呢？
 
 可安裝於以下的硬體上：
@@ -44,7 +46,7 @@ ScratchJr是一個免費APP,是由MIT(麻省理工學院)開發及維護的一�
 
 - 若要安裝於桌上電腦或是筆記型電腦，需安裝BlueStack後（Android模擬器），再安裝ScratchJr 
 
-[延伸閱讀：ScratchJr在各裝置的安裝步驟](how_to_install_scratchjr/)
+[延伸閱讀：你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你](../how_to_install_scratchjr/)
 
 #### 問題3： ScratchJr可以在電腦（桌上型電腦/筆記型電腦）上使用ScratchJr嗎？
 
