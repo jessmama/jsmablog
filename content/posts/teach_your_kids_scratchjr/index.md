@@ -3,7 +3,7 @@ weight: 1
 title: "想要教孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
 date: 2021-09-05T20:22:52+08:00
 draft: false
-author: "Jess"
+# author: "Jess"
 # authorLink: "https://feelit.khusika.com"
 description: "想要教孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
 resources:
@@ -15,10 +15,10 @@ resources:
 tags: ["ScratchJr", "兒童程式教育"]
 categories: ["ScratchJr"]
 
-lightgallery: false
+#lightgallery: false
 
-toc:
-  auto: false
+#toc:
+#  auto: false
 ---
 > 你對寫程式的印象，還停留在用鍵盤一個一個打出英文字的黑底白字的介面嗎？對兒童來說，這樣的介面不僅學習困難，而且會大大減少他們的學習意願，所以教孩子使用積木拖拉方式寫程式（Drag-and-drop programming）已經是一種趨勢。撰寫程式的難度降低後，即使是5歲的兒童也可以從ScratchJr開始學習程式設計。
 

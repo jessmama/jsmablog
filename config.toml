@@ -5,14 +5,14 @@ defaultContentLanguage = "en"
 
 # language code
 languageCode = 'en-us'
-title = '捷思媽 - 以程式設計師媽媽的身份，分享兒童程式教育的學習資源'
+title = '程式設計師媽媽，與你分享兒童程式教育的學習資源 | 捷思媽'
 
 # Change the default theme to be use when building the site with Hugo
 theme = "FeelIt"
 
 [params]
 # site description
-description = "捷思媽 - 以程式設計師媽媽的身份，分享兒童程式教育的學習資源"
+description = "程式設計師媽媽，與你分享兒童程式教育的學習資源 | 捷思媽"
 
 # site keywords
 keywords = ["scratch", "兒童程式","程式教育","scratch3.0","scratch遊戲","scratch範例","scratch教學範例","scratch遊戲設計","scratch教學","scratch程式","scratch程式設計","scratch課程","scratch兒童程式設計","程式語言兒童"]
@@ -91,7 +91,7 @@ SourceMap = true
  # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = '捷思媽 - 以程式設計師媽媽的身份，分享兒童程式教育的學習資源'
+    title = '程式設計師媽媽，與你分享兒童程式教育的學習資源 | 捷思媽'
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -148,7 +148,7 @@ SourceMap = true
       logo = ""
 
       # title name
-      name = "Jess媽｜捷思碼"
+      name = "捷思媽｜Jess媽"
 
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
@@ -273,7 +273,7 @@ SourceMap = true
       title = ""
 
       # subtitle shown in home page
-      subtitle = "我是Jess媽，是程式設計師，也是媽媽，與你分享兒童程式教育的學習資源"
+      subtitle = "I'm Jess，是程式設計師，也是媽媽，與你分享兒童程式的學習資源"
 
       # whether to use typeit animation for subtitle
       typeit = true

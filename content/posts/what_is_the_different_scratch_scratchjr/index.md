@@ -1,6 +1,6 @@
 ---
 weight: 2
-title: "scratch vs scratchjr的差異是什麼？各適合什麼樣的年齡學習？"
+title: "scratch與scratchJr的差異是什麼？各適合什麼樣的年齡學習？"
 date: 2021-09-06T10:15:18+08:00
 draft: false
 resources:
@@ -12,11 +12,11 @@ resources:
 tags: ["ScratchJr", "Scratch","兒童程式教育"]
 categories: ["ScratchJr"]
 ---
-### 相同點：
+### scratch與scratchJr的相同點
 * 皆為提供給兒童設計程式所使用的免費軟體
 * 皆為積木程式，使用點擊及拖拉(click and drag)方式撰寫程式
 
-###  差異比較：
+###  scratch與scratchJr的差異比較
 | 差異 | ScratchJr |Scratch|
 | ------ | ----------- | ----------- |
 | 適合學習年齡  | 5 ~ 7歲 | 8 ~ 16歲 |
