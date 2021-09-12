@@ -41,25 +41,27 @@ ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護�
 
 可安裝於以下的硬體上：
 
-- iPad (需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone：[連到 App Store 安裝](https://apps.apple.com/us/app/scratchjr/id895485086?ls=1)
+- iPad (需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone：[到 App Store 安裝](https://apps.apple.com/us/app/scratchjr/id895485086?ls=1)
 
-- Android手機或Android Pad上：<a href="https://play.google.com/store/apps/details?id=org.scratchjr.android" target="_blank">連到 Google Play 安裝</a>
-  
+- Android手機或Android Pad上：[到 Google Play 安裝](https://play.google.com/store/apps/details?id=org.scratchjr.android)
+
 - 若要安裝於桌上電腦或是筆記型電腦:
-  * 若你是Chromebook OS的筆電：<a href="https://chrome.google.com/webstore/detail/scratchjr/oipimoeophamdcmjcfameoojlbhbgjda" target="_blank">連到 Chrome web store 安裝</a>
+  
+  * 若你是Chromebook OS的筆電：[到 Chrome web store 安裝](https://chrome.google.com/webstore/detail/scratchjr/oipimoeophamdcmjcfameoojlbhbgjda)
+    
   * 若你不是Chromebook OS的電腦：需安裝BlueStack後（Android模擬器），再安裝ScratchJr
     
-    1. 請連至<a href="https://www.bluestacks.com/tw/index.html" target="_blank">Bluestacks 台灣官網</a>
+    1. 請連至 [Bluestacks 台灣官網](https://www.bluestacks.com/tw/index.html)
       * Bluestacks：是一種 Android 模擬器，安裝在你的電腦或是筆電後，電腦就變成一台Android手機，可以在電腦上下載並使用APP。
 
     2. 安裝Bluestacks到電腦上：
-      * <a href="https://support.bluestacks.com/hc/zh-tw/articles/360013662851-%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BC%89%E5%92%8C%E5%AE%89%E8%A3%9DBlueStacks-" target="_blank"> Windows安裝參考這裡 </a>
-        
-      * <a href="https://support.bluestacks.com/hc/zh-tw/articles/360000736632-%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E7%B3%BB%E7%B5%B1%E4%B8%8A%E5%AE%89%E8%A3%9D%E4%B8%A6%E5%95%9F%E5%8B%95BlueStacks-" target="_blank">Mac安裝參考這裡</a>
-
+      * [Windows安裝參考這裡](https://support.bluestacks.com/hc/zh-tw/articles/360013662851-%E5%A6%82%E4%BD%95%E4%B8%8B%E8%BC%89%E5%92%8C%E5%AE%89%E8%A3%9DBlueStacks-)
+           
+      * [Mac安裝參考這裡](https://support.bluestacks.com/hc/zh-tw/articles/360000736632-%E5%A6%82%E4%BD%95%E5%9C%A8Mac%E7%B3%BB%E7%B5%B1%E4%B8%8A%E5%AE%89%E8%A3%9D%E4%B8%A6%E5%95%9F%E5%8B%95BlueStacks-)
+  
       ![安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr](bluestack.jpg "安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr")
   
-#### 問題3： ScratchJr的主要功能是什麼呢？一開始可以怎麼帶領孩子玩呢？
+#### 問題3： ScratchJr的主要功能是什麼呢？一開始可以怎麼帶孩子玩呢？
 
 安裝完成後，請打開ScratchJr，先
 
