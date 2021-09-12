@@ -4,7 +4,7 @@ title: "想要教孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一
 date: 2021-09-05T20:22:52+08:00
 draft: false
 author: "Jess"
-# authorLink: "https://feelit.khusika.com"
+authorLink: ""
 description: "想要教孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
 resources:
 - name: "featured-image"
@@ -15,10 +15,10 @@ resources:
 tags: ["ScratchJr", "兒童程式教育"]
 categories: ["ScratchJr"]
 
-lightgallery: false
+lightgallery: true
 
 toc:
-  auto: false
+  auto: true
 ---
 > 你對寫程式的印象，還停留在用鍵盤一個一個打出英文字的黑底白字的介面嗎？對兒童來說，這樣的介面不僅學習困難，而且會大大減少他們的學習意願，所以教孩子使用積木拖拉方式寫程式（Drag-and-drop programming）已經是一種趨勢。撰寫程式的難度降低後，即使是5歲的兒童也可以從ScratchJr開始學習程式設計。
 
@@ -30,35 +30,42 @@ toc:
 
 #### 問題1： ScratchJr是什麼？適合甚麼年齡的孩子呢？
 
-ScratchJr是一個免費APP,是由MIT(麻省理工學院)開發及維護的一套軟體，提供給5-7歲第一次嘗試程式設計的孩子們，用拖拉（dragging and dropping）的方式將一個一個像是樂高積木的程式，有順序的組合起來後，就可以撰寫程式，讓畫面上的角色動起來，孩子可以在這個APP藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲，讓他們發揮創意之外，也可以學習程式的基礎概念。
+ScratchJr是一個免費APP,是由MIT(麻省理工學院)開發及維護的一套軟體，提供給5-8歲第一次嘗試程式設計的孩子們，用拖拉（dragging and dropping）的方式將一個一個像是樂高積木的程式，有順序的組合起來後，就可以撰寫程式，讓畫面上的角色動起來。
 
-![5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲](use_scratch.jpg "5-7歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲")
+孩子可以在這個APP藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲，讓他們發揮創意之外，也可以學習程式的基礎概念。
+
+![5-8歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲](use_scratch.jpg "5-8歲第一次嘗試程式設計的孩子們，可以藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲")
 
 
 #### 問題2： ScratchJr可安裝在哪裡呢？
 
 可安裝於以下的硬體上：
 
-- IPad(需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone
+- IPad(需要 iPadOS 9.3 或以上版本)，但無法安裝於iPhone：請連至[Apple Store安裝](https://apps.apple.com/us/app/scratchjr/id895485086?ls=1)
 
-- Android手機或Android Pad上（請進入Google Play安裝）
+- Android手機或Android Pad上：請連至[Google Play安裝](https://play.google.com/store/apps/details?id=org.scratchjr.android)
 
-- 若要安裝於桌上電腦或是筆記型電腦，需安裝BlueStack後（Android模擬器），再安裝ScratchJr 
+- 若要安裝於桌上電腦或是筆記型電腦:
+  * 若你是Chromebook OS的筆電：[連到這裡直接安裝](https://chrome.google.com/webstore/detail/scratchjr/oipimoeophamdcmjcfameoojlbhbgjda)
+  * 若你不是Chromebook OS的電腦：需安裝BlueStack後（Android模擬器），再安裝ScratchJr 
+  
+  [延伸閱讀：你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你](../how_to_install_scratchjr/)
 
 
-[延伸閱讀：你知道除了在pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你](../how_to_install_scratchjr/)
-
-
-#### 問題3： ScratchJr可以在電腦（桌上型電腦/筆記型電腦）上使用ScratchJr嗎？
+#### 問題3： 可以在電腦（桌上型電腦/筆記型電腦）上使用ScratchJr嗎？
 
 可以的喔。
 
 ScratchJr會定位在平板電腦上使用的原因，一方面是因為5-8歲的孩子尚未學習如何使用滑鼠。
 
 另一方面，也因為5-8歲的孩子尚未學習認字，使用鍵盤打字對他們來說是一大挑戰。
+
 而手機螢幕對5-8歲的孩子來說，顯得太小不容易閱讀，也不容易用手指操作，所以平板電腦便成了ScratchJr所預設的使用客群5-8歲的孩子的最佳選擇。
 
-但若真的想要在電腦上安裝ScratchJr其實也是可以的，可以透過安裝Andriod模擬器的方式，安裝完成模擬器之後，你的電腦就變成了一台平板（或手機），你可以安裝ScratchJr APP在上面。就可以讓孩子們在電腦上使用ScratchJr。
+但若真的想要在電腦上安裝ScratchJr其實也是可以的，可以透過安裝Andriod模擬器的方式，安裝完成模擬器之後，你的電腦就變成了一台平板（或手機），可以安裝ScratchJr APP在上面，就可以讓孩子們在電腦上使用ScratchJr。
+[安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr](bluestack.jpg "安裝BlueStack後（Android模擬器），再安裝ScratchJr，就可以在電腦上使用ScratchJr")
+
+
 
 #### 問題4： ScratchJr的主要功能是什麼呢？一開始可以怎麼帶領孩子玩呢？
 
