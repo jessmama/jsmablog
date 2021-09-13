@@ -8,9 +8,9 @@ authorLink: ""
 description: "scratch與scratchJr的差異是什麼？各適合什麼樣的年齡學習？"
 resources:
 - name: "featured-image"
-  src: "featured-image.webp"
+  src: "featured-image-preview.jpg"
 - name: "featured-image-preview"
-  src: "featured-image-preview.webp"
+  src: "featured-image-preview.jpg"
 
 tags: ["ScratchJr", "Scratch","兒童程式教育"]
 categories: ["ScratchJr"]
