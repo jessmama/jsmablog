@@ -2,7 +2,7 @@
 weight: 3
 title: "你知道除了在Pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你"
 date: 2021-09-09T08:39:25+08:00
-draft: false
+draft: true
 author: "Jess"
 # authorLink: "https://feelit.khusika.com"
 description: "你知道除了在Pad上可以使用ScratchJr外，也可以在電腦上使用嗎？安裝方式一次告訴你"
