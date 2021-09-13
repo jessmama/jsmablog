@@ -1,11 +1,11 @@
 ---
 weight: 2
-title: "scratch與scratchJr的差異是什麼？各適合什麼樣的年齡學習？"
+title: "Scratch與ScratchJr的差異是什麼？各適合什麼樣的年齡學習？"
 date: 2021-09-06T10:15:18+08:00
 draft: false
 author: "Jess"
 authorLink: ""
-description: "scratch與scratchJr的差異是什麼？各適合什麼樣的年齡學習？"
+description: "Scratch與ScratchJr的差異是什麼？各適合什麼樣的年齡學習？"
 resources:
 - name: "featured-image"
   src: "featured-image-preview.jpg"

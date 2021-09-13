@@ -125,7 +125,7 @@ ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護�
 
 網路上或是書籍都可以很容易找到資源，可以帶著孩子學習。在製作的過程中，可搭配學習程式的基礎概念，例如：迴圈（loop）.除錯（debug）.事件（Events)。
 
-[延伸閱讀：如何用scratch教孩子學程式設計？你可以應用的scratch教學範例](https://assemble.io)
+[延伸閱讀：ScratchJr可以學習到什麼程式概念？適合我的孩子學習嗎？](https://assemble.io)
 
 #### 問題5:  學會ScratchJr後可以怎麼延伸呢？
 
@@ -133,4 +133,4 @@ ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護�
 
 再加上Scratch擴充性非常的高，學習Scratch可再與其他程式語言結合或是連接外部硬體做出更多有趣的應用。
 
-[延伸閱讀：如何用scratch教孩子學程式設計？你可以應用的scratch教學範例](https://assemble.io)
+[延伸閱讀：Scratch與ScratchJr的差異是什麼？各適合什麼樣的年齡學習？](../what_is_the_different_scratch_scratchjr/)
