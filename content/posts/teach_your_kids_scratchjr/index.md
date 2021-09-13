@@ -1,11 +1,11 @@
 ---
 weight: 1
-title: "想要教5到8歲的孩子寫ScratchJr程式不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
+title: "想教5到8歲的孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
 date: 2021-09-05T20:22:52+08:00
 draft: false
 author: "Jess"
 authorLink: ""
-description: "想要教5到8歲的孩子寫ScratchJr程式不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
+description: "想教5到8歲的孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
 resources:
 - name: "featured-image"
   src: "featured-image-preview.jpg"
