@@ -1,11 +1,11 @@
 ---
 weight: 1
-title: "想教5到8歲的孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
+title: "5到8歲的孩子可以寫程式？身為家長的你一定要知道的ScratchJr"
 date: 2021-09-05T20:22:52+08:00
 draft: false
 author: "Jess"
 authorLink: ""
-description: "想教5到8歲的孩子ScratchJr不知如何開始嗎？學習ScratchJr前你一定會問的5大問題"
+description: "5到8歲的孩子可以寫程式？身為家長的你一定要知道的ScratchJr"
 resources:
 - name: "featured-image"
   src: "featured-image-preview.jpg"
@@ -20,20 +20,19 @@ lightgallery: true
 toc:
   auto: false
 ---
-
-> 你對寫程式的印象，還停留在用鍵盤一個一個打出英文字的黑底白字的介面嗎？對兒童來說，這樣的介面不僅學習困難，而且會大大減少他們的學習意願，所以教孩子使用積木拖拉方式寫程式（Drag-and-drop programming）已經是一種趨勢。撰寫程式的難度降低後，即使是5歲的兒童也可以從ScratchJr開始學習程式設計。
-
 5歲兒童開始寫程式？
 
-你沒聽錯，我教過5歲的小朋友使用 ScratchJr 寫程式製作出人生中的第一款自製遊戲。
+你沒聽錯，今年暑假，我教過15位介於5到8歲的孩子們，使用 ScratchJr 寫程式製作出人生中的第一款自製遊戲。
 
-很好奇什麼是 ScratchJr 嗎？
+身為家長的你，很好奇什麼是 ScratchJr 嗎？
 
 我彙整了開始學習ScratchJr前，你一定會想先了解的5大問題，讓我們一起看下去。
 
 #### 問題1： ScratchJr是什麼？適合甚麼年齡的孩子呢？
 
 ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護的一套軟體，提供給5-8歲第一次嘗試程式設計的孩子們，用拖拉（dragging and dropping）的方式將一個一個像是樂高積木的程式，有順序的組合起來後，就可以撰寫程式，讓畫面上的角色動起來。
+
+> 你對寫程式的印象，還停留在用鍵盤一個一個打出英文字的黑底白字的介面嗎？對兒童來說，這樣的介面不僅學習困難，而且會大大減少他們的學習意願，所以教孩子使用積木拖拉方式寫程式（Drag-and-drop programming）已經是一種趨勢。撰寫程式的難度降低後，即使是5歲的兒童也可以從ScratchJr開始學習程式設計。
 
 孩子可以在這個APP藉由拉積木的方式，說故事，做動畫，設計卡片，做互動遊戲，讓他們發揮創意之外，也可以學習程式的基礎概念。
 
