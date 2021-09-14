@@ -116,11 +116,14 @@ ScratchJr是一個免費APP,是由美國MIT(麻省理工學院)開發及維護�
 因為ScratchJr可彈性的撰寫程式，若無家長適當引導，孩子有可能迷失在其中，建議可以先引導孩子先隨意探索每個積木的功能。後續再還可以主題化引導教學的方式，鼓勵孩子用ScratchJr說個小故事，或是做個小遊戲。
 
 [延伸閱讀：scratchjr遊戲設計教學- 創作一個故事](https://assemble.io)
+
 [延伸閱讀：scratchjr遊戲設計教學- 製作動畫卡片](https://assemble.io)
+
 [延伸閱讀：scratchjr遊戲設計教學- 做出Flappy Bird遊戲](https://assemble.io)
+
 [延伸閱讀：scratchjr遊戲設計教學- 做出打地鼠遊戲](https://assemble.io)
 
-在製作的過程中，可搭配學習程式的基礎概念，例如：迴圈（loop）.除錯（debug）.事件（Events)。
+在製作的過程中，家長可搭配教導孩子學習程式的基礎概念，例如：迴圈（loop）.除錯（debug）.事件（Events)。
 
 [延伸閱讀：ScratchJr可以學習到什麼程式概念？適合我的孩子學習嗎？](https://assemble.io)
 
