@@ -8,7 +8,7 @@ authorLink: ""
 description: "5歲的孩子可以寫程式？身為家長的你一定要知道的ScratchJr"
 resources:
 - name: "featured-image"
-  src: "featured-image-preview.jpg"
+  src: "featured-image.jpg"
 - name: "featured-image-preview"
   src: "featured-image-preview.jpg"
 
