@@ -23,12 +23,12 @@ jobs:
          with:
             hugo-version: '0.87.0'
             extended: true
-
-      # - name: Clean public
-      #   run: rm -rf public/*
          
-      # - name: Setup public
-      #   run: git worktree add -B gh-pages public origin/gh-pages
+       #- name: Setup public
+       #  run: git worktree add -B gh-pages public origin/gh-pages
+       
+       #- name: Clean public
+       #  run: rm -rf public/*
       
        - name: build content to public site
          working-directory: ./
