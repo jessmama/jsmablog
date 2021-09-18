@@ -8,7 +8,7 @@ authorLink: ""
 description: "ScratchJr可以學習到什麼程式概念？適合我的孩子學習嗎？"
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "featured-image-preview.jpg"
 - name: "featured-image-preview"
   src: "featured-image-preview.jpg"
 

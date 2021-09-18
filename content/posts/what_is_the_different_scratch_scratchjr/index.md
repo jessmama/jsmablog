@@ -1,11 +1,11 @@
 ---
 weight: 2
-title: "Scratch與ScratchJr的差異是什麼？各適合什麼樣的年齡學習？"
+title: "Scratch與ScratchJr的相同點及差異點是什麼？各適合什麼樣的年齡學習？"
 date: 2021-09-06T10:15:18+08:00
 draft: false
 author: "Jess"
 authorLink: ""
-description: "Scratch與ScratchJr的差異是什麼？各適合什麼樣的年齡學習？"
+description: "Scratch與ScratchJr的相同點及差異點是什麼？各適合什麼樣的年齡學習？"
 resources:
 - name: "featured-image"
   src: "featured-image-preview.jpg"
@@ -27,7 +27,7 @@ toc:
 ###  scratch與scratchJr的差異比較
 | 差異 | ScratchJr |Scratch|
 | ------ | ----------- | ----------- |
-| 適合學習年齡  | 5 ~ 7歲 | 8 ~ 16歲 |
+| 適合學習年齡  | 5 ~ 7歲 | 8 ~ 15歲 |
 | 所使用的裝置 | 平板 | 電腦 |
 | 使用方式 | 下載即可使用| 在網站上註冊後即可使用 |
 
