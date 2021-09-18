@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 2
 title: "5歲的孩子可以寫程式？身為家長的你一定要知道的ScratchJr"
 date: 2021-09-05T20:22:52+08:00
 draft: false

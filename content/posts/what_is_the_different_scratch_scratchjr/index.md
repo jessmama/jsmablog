@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 4
 title: "Scratch與ScratchJr的相同點及差異點是什麼？各適合什麼樣的年齡學習？"
 date: 2021-09-06T10:15:18+08:00
 draft: false
