@@ -8,7 +8,7 @@ authorLink: ""
 description: "關於捷思媽Jess媽"
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "ffeatured-image-preview.jpg"
 - name: "featured-image-preview"
   src: "featured-image-preview.jpg"
 
