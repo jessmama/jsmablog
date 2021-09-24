@@ -34,28 +34,36 @@ toc:
 
 ### 有差異的積木功能
 
-#### Sound effects
+#### 音效 (Sound effects)
 
-Only one “pop” sound is available to use in ScratchJr. However kids can record any sounds they want. Though the recording time is limited to a minute.
+Only one “pop” sound is available to use in ScratchJr. 
+However kids can record any sounds they want. 
+Though the recording time is limited to a minute.
 
-#### Broadcasts
+#### 角色之間傳送訊息 (Broadcasts)
 
-ScratchJr has a limited number of broadcast blocks: up to six on each page. Instead of passing a message in the form of text, each broadcast block contains a letter indicating a color associated with its specific message.
+ScratchJr has a limited number of broadcast blocks: up to six on each page. 
+Instead of passing a message in the form of text, each broadcast block contains a letter indicating a color associated with its specific message.
 
-#### Optimized for mobile
+#### 對手機畫面的適應度 (Optimized for mobile)
 
-ScratchJr is optimized for mobile and tablet devices, as opposed to Scratch which is built for computers. The ability to touch the screen of an iPad or an Android tablet helps make ScratchJr more accessible, too.
+ScratchJr is optimized for mobile and tablet devices, as opposed to Scratch which is built for computers.
+ The ability to touch the screen of an iPad or an Android tablet helps make ScratchJr more accessible, too.
 
-#### Grid system
+#### 畫面上的大小 (Grid system)
 
-ScratchJr's stage is divided into a grid that is 20 x 15 squares in size. Unlike Scratch's stage, which uses regular pixels that are not broken into a grid.
+ScratchJr's stage is divided into a grid that is 20 x 15 squares in size. 
+Unlike Scratch's stage, which uses regular pixels that are not broken into a grid.
 
-#### Paint editor
+#### 小畫家功能/自己繪製圖案 (Paint editor)
 
-In ScratchJr, there's a paint editor where kids can alter pre-existing sprite/backgrounds or draw something of their choice. This feature helps kids learn how to create and express themselves.
+In ScratchJr, there's a paint editor where kids can alter pre-existing sprite/backgrounds or draw something of their choice. 
+This feature helps kids learn how to create and express themselves.
 
-#### Pages/stage
+#### 背景功能 (Pages/stage)
 
-In ScratchJr, pages are "scenes" that hold their own sprites, background, and broadcasts. And you can only have up to 4 pages per project. Whereas in Scratch, students can make many more backdrops.
+In ScratchJr, pages are "scenes" that hold their own sprites, background, and broadcasts. 
+And you can only have up to 4 pages per project. 
+Whereas in Scratch, students can make many more backdrops.
 
 
